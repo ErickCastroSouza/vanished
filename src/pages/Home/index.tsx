@@ -32,7 +32,7 @@ function Home() {
           
             <section className="container2">
               <div>
-                <p>teste</p>
+                <p>teste eba</p>
               </div>
             </section>
 

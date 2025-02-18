@@ -20,7 +20,10 @@
 body {
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  background-color: #313E2A;
+  background: #FFFFFF;
+  background-blend-mode: multiply;
+  background: linear-gradient(233.95deg, #0D1E20 -73.12%, #313E2A 53.36%, #262D20 103.17%);
+;
   color: white;
   margin: 0;
   padding: 0;

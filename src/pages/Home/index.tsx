@@ -2,13 +2,13 @@ import './styles.css';
 
 function Home() {
   return (
-    <div className="app">
+    <div>
             <header className="header">
                 <h2>Vanished</h2>
                 <nav>
                     <ul>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Cadastrar pessoas</a></li>
+                        <li><a href="/About_Us">Sobre nós</a></li>
+                        <li><a href="/Register">Cadastrar pessoas</a></li>
                         <li><a href="#">Buscar</a></li>
                         <li><a href="/Login" className="btn">Login</a></li>
                     </ul>
@@ -21,21 +21,18 @@ function Home() {
                         <div><strong>6 mil+</strong><br />Por Mês</div>
                         <div><strong>82 mil+</strong><br />Por Ano</div>
                     </div>
-                    <p>Esse site pode ajudar você e milhares de pessoas a encontrar seus entes queridos e amigos </p>
-                    <a href="#" className="btn">Encontre agora</a>
-                </div>
-                <div className="fade-image-section">
-                    <div className="fade-overlay"></div>
-                    <img src="" alt="Horizontal Example" id="fade-image" />
+                    <p>Aqui, você pode cadastrar um desaparecimento, compartilhar informações e acessar relatos de pessoas encontradas. 
+                      Com a força da comunidade e o apoio da tecnologia, acreditamos que cada compartilhamento pode fazer a diferença.
+Junte-se a nós nessa missão. Quanto mais pessoas envolvidas, maiores as chances de reunir famílias e trazer esperança de volta aos lares. </p>
                 </div>
             </section>
           
             <section className="container2">
               <div>
-                <p>teste eba</p>
+                <p></p>
               </div>
             </section>
-
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
     </div>
   )
 }

@@ -14,6 +14,7 @@ function Home() {
                     </ul>
                 </nav>
             </header>
+
             <section className="container">
                 <div className="text-section">
                     <h1>Em média 217 pessoas desaparecem por dia no Brasil</h1>
@@ -24,6 +25,10 @@ function Home() {
                     <p>Aqui, você pode cadastrar um desaparecimento, compartilhar informações e acessar relatos de pessoas encontradas. 
                       Com a força da comunidade e o apoio da tecnologia, acreditamos que cada compartilhamento pode fazer a diferença.
 Junte-se a nós nessa missão. Quanto mais pessoas envolvidas, maiores as chances de reunir famílias e trazer esperança de volta aos lares. </p>
+                </div>
+
+                <div className='image-container'>
+                    <p></p>
                 </div>
             </section>
           

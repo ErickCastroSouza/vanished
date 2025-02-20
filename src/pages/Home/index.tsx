@@ -54,7 +54,7 @@ function Home() {
               <div className="footer-column">
                   <h3>Serviços</h3>
                   <ul>
-                      <li><a href="#">Cadastro de pessoas</a></li>
+                      <li><a href="/Register">Cadastro de pessoas</a></li>
                       <li><a href="#">Lista completa</a></li>
                       <li><a href="#">Encontrei alguém</a></li>
                       <li><a href="#">Denunciar</a></li>
@@ -63,7 +63,7 @@ function Home() {
               <div className="footer-column">
                   <h3>Informações</h3>
                   <ul>
-                      <li><a href="#">Sobre nós</a></li>
+                      <li><a href="/About_Us">Sobre nós</a></li>
                       <li><a href="#">Fale conosco</a></li>
                   </ul>
               </div>

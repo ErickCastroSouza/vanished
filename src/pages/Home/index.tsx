@@ -1,4 +1,6 @@
 import './styles.css';
+import { FaWhatsapp } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 
 function Home() {
   return (
@@ -7,13 +9,14 @@ function Home() {
                 <h2>Vanished</h2>
                 <nav>
                     <ul>
-                        <li><a href="/About_Us">Sobre nós</a></li>
+                        <li><a id='header-search-bar' href="#">Buscar</a></li>
                         <li><a href="/Register">Cadastrar pessoas</a></li>
-                        <li><a href="#">Buscar</a></li>
+                        <li><a href="/About_Us">Sobre nós</a></li>
                         <li><a href="/Login" className="btn">Login</a></li>
                     </ul>
                 </nav>
             </header>
+
 
             <section className="container">
                 <div className="text-section">
@@ -24,7 +27,7 @@ function Home() {
                     </div>
                     <p>Aqui, você pode cadastrar um desaparecimento, compartilhar informações e acessar relatos de pessoas encontradas. 
                       Com a força da comunidade e o apoio da tecnologia, acreditamos que cada compartilhamento pode fazer a diferença.
-Junte-se a nós nessa missão. Quanto mais pessoas envolvidas, maiores as chances de reunir famílias e trazer esperança de volta aos lares. </p>
+                      Junte-se a nós nessa missão. Quanto mais pessoas envolvidas, maiores as chances de reunir famílias e trazer esperança de volta aos lares. </p>
                 </div>
 
                 <div className='image-container'>
@@ -32,11 +35,51 @@ Junte-se a nós nessa missão. Quanto mais pessoas envolvidas, maiores as chance
                 </div>
             </section>
           
+
             <section className="container2">
               <div>
                 <p></p>
               </div>
             </section>
+
+
+            <section className='container3'>
+              <div>
+                <p></p>
+              </div>
+            </section>
+
+
+            <footer className='footer'>
+              <div className="footer-column">
+                  <h3>Serviços</h3>
+                  <ul>
+                      <li><a href="#">Cadastro de pessoas</a></li>
+                      <li><a href="#">Lista completa</a></li>
+                      <li><a href="#">Encontrei alguém</a></li>
+                      <li><a href="#">Denunciar</a></li>
+                  </ul>
+              </div>
+              <div className="footer-column">
+                  <h3>Informações</h3>
+                  <ul>
+                      <li><a href="#">Sobre nós</a></li>
+                      <li><a href="#">Fale conosco</a></li>
+                  </ul>
+              </div>
+              <div className="footer-column">
+                  <p className="contact-logo">Vanished</p>
+                  <p className='contact-info'>+55 (11) 96018-5676</p>
+                  <p className='contact-info'>contact@vanished.com</p>
+                  <div className="icons">
+                      <a href="#"><FaWhatsapp /></a>
+                      <a href="#"><BiLogoGmail /></a>
+                  </div>
+              </div>
+            </footer>
+            <div className="copyright">
+                    &copy; 2025 — Erick Castro <a href="#"></a>
+            </div>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
     </div>
   )

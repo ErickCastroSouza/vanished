@@ -6,7 +6,7 @@ function Login() {
   return (
     <div>
        <header className="header">
-                <h2>Vanished</h2>
+       <a className='header-logo' href='/'>Vanished</a>
                 <nav>
                     <ul>
                         <li><a id='header-search-bar' href="#">Buscar</a></li>

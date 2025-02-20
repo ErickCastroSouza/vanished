@@ -72,13 +72,13 @@ function Home() {
                   <p className='contact-info'>+55 (11) 96018-5676</p>
                   <p className='contact-info'>contact@vanished.com</p>
                   <div className="icons">
-                      <a href="#"><FaWhatsapp /></a>
-                      <a href="#"><BiLogoGmail /></a>
+                      <a href="#" aria-label="Whatsapp"><FaWhatsapp /></a>
+                      <a href="#" aria-label="Mandar email"><BiLogoGmail /></a>
                   </div>
               </div>
             </footer>
             <div className="copyright">
-                    &copy; 2025 — Erick Castro <a href="#"></a>
+                    &copy; 2025 — Erick Castro
             </div>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
     </div>
